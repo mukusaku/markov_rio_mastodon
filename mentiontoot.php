@@ -183,7 +183,7 @@ class mention {
         $string = "";
         $randomKey = array_rand($aryAkane, 1);
         // ランダムにブーストしたトゥートを取得
-        $string .= $aryAkane[$randomKey] . "。";
+        //$string .= $aryAkane[$randomKey] . "。";
         
         $ol = new originalList();
         $string .= $ol->implodeSentences(); // この行を有効化するとオリジナルテキストも参照する
